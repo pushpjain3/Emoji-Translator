@@ -1,0 +1,79 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  margin: 0;
+  background: var(--secondary-color);
+}
+:root {
+  --secondary-color: #fde68a;
+  --secondary-light: #fef3c7;
+  --secondary-dark: #fcd34d;
+  --primary-color: #212121;
+  --primary-light: #484848;
+}
+* {
+  margin: 0;
+  padding: 0;
+}
+
+input {
+  margin: 1rem;
+  padding: 1rem;
+  border: 2px solid black;
+  border-radius: 8px;
+  width: 40%;
+  outline: none;
+}
+ul {
+  padding-inline-start: 0px;
+}
+li {
+  display: inline;
+}
+.navigation {
+  background-color: var(--primary-color);
+  padding: 0.6rem 0rem;
+  text-align: center;
+  width: 100%;
+  top: 0;
+  color: var(--secondary-color);
+}
+.navigation h1 {
+  margin: 0.2rem;
+  text-decoration: bold;
+  font-size: 2rem;
+}
+
+.emoji-tray {
+  padding: 0.5rem;
+  font-size: 2rem;
+}
+.emojiBlock {
+  width: 80%;
+  max-width: 800px;
+  margin: auto;
+}
+.footer {
+  background-color: var(--primary-color);
+  height: 5vh;
+  padding: 1rem;
+  text-align: center;
+  padding-bottom: 2.7rem;
+  margin-top: 1rem;
+  /* position: absolute;
+	left: 0;
+
+	margin: 0 auto;
+	bottom: 0;
+	width: 100%; */
+}
+.footer-content {
+  margin: 1rem;
+}
+.footer-link {
+  color: var(--secondary-dark);
+  text-decoration: none;
+}
+.footer-link:hover {
+  color: var(--secondary-light);
+}
